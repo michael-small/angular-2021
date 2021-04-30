@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-basic2021'`, () => {
+  it(`should have as title 'Michael Small's Angular 2021'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-basic2021');
+    expect(app.title).toEqual('Michael Small\'s Angular 2021');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-basic2021 app is running!');
+    expect(compiled.querySelector('#cockpit h1').textContent).toContain('Michael Small\'s Angular 2021');
   });
 });
