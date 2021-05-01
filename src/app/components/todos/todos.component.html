@@ -1,2 +1,7 @@
-<mat-card *ngFor="let todo of todos">{{todo.title}}</mat-card>
+<mat-card *ngFor="let todo of todos">
+  {{todo.title}}
+  <mat-chip-list>
+    <mat-chip [ngStyle]="{'background-color': todo.completed ? '#B3FFB4': '#FAFFB3'}">{{todo.completed ? 'Complete' : 'Incomplete'}}</mat-chip>
+  </mat-chip-list>
+</mat-card>
 
