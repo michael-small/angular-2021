@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TodoService } from './components/todos/todos.service';
+import { TodosService } from './components/todos/todos.service';
 import { Todo } from './models/Todo';
 
 @Component({
@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'Michael Small\'s Angular 2021';
   todos: Todo[];
 
-  constructor(private todoService: TodoService) {
+  constructor(private todoService: TodosService) {
 
   }
 

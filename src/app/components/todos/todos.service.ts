@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class TodoService {
+export class TodosService {
 
   todosUrl: string = 'https://jsonplaceholder.typicode.com/todos';
   limit: string = '?_limit=10';
