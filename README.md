@@ -1,27 +1,26 @@
 # AngularBasic2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+My refresher on Angular for a code challenge. I worked extensively with Angular for my first agile experience, as well as two internships and 
+various side projects. That has been too long ago. I would love to work with Angular again, but I need to get my bearings back because I have 
+been focusing solely on React for the most part in the last year.
 
-## Development server
+## Running Locally and About Angular
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Documentation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I have moved the stock Angular README to `~/Documentation`. I may add other docs there later.
 
-## Build
+## Contributing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This only concerns me but I put this here in principle anyways because I like to act like I am working on a professiona project even on personal 
+projects.
 
-## Running unit tests
+### Basics
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Move code that is fairly stable but needs review and testing to the `development` branch
+* Place all issues in some GitHub project
+* Tag commits with issue numbers and the project, like `Addresses #X (Title of Commit)` and `Project: 'Project Title'`
