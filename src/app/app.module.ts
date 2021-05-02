@@ -6,10 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TodosComponent } from './components/todos/todos.component';
-import {MatCardModule} from '@angular/material/card';
-import {MatChipsModule} from '@angular/material/chips';
-
-
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -21,8 +18,7 @@ import {MatChipsModule} from '@angular/material/chips';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatCardModule,
-    MatChipsModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
