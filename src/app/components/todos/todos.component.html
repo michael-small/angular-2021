@@ -1,8 +1,8 @@
 <mat-card *ngFor="let todo of todos">
-  {{todo.title}}
   <mat-chip-list>
     <mat-chip [ngStyle]="{'background-color': todo.completed ? '#B3FFB4': '#FAFFB3'}">{{todo.completed ? 'Complete' : 'Incomplete'}}</mat-chip>
   </mat-chip-list>
-  <button (click)="deleteTodo(todo)">Delete</button>
+  <p>{{todo.title}}</p>
+  <button mat-raised-button (click)="deleteTodo(todo)">Delete</button>
 </mat-card>
 
