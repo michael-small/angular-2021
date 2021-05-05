@@ -1,10 +1,17 @@
-# AngularBasic2021
+# Angular Basics 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+My practice at Angular in 2021, as I have been doing mostly React for the last year. 
 
-## Development server
+This also serves as the template for any job application exercises
+
+## Running in development
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+# STOCK ANGULAR README
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
 ## Code scaffolding
 
